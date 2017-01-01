@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">my_first_application</string>
+    <string name="practice">练习Demo</string>
+    <string name="dialog_simple">一般对话框</string>
+    <string name="dialog_list">列表对话框</string>
+    <string name="dialog_radio">单选对话框</string>
+    <string name="dialog_single">单选对话框</string>
+    <string name="dialog_more">多选对话框</string>
+    <string name="popupwindow">自定义PopupWindow</string>
+</resources>

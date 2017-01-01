@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.masai.my_first_application.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/practice" />
+
+    <Button
+        android:id="@+id/btn_simple_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_simple" />
+
+    <Button
+        android:id="@+id/btn_list_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_list" />
+
+    <Button
+        android:id="@+id/btn_single_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_single" />
+
+    <Button
+        android:id="@+id/btn_more_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_more" />
+
+    <Button
+        android:id="@+id/btn_popupwindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/popupwindow"/>
+</LinearLayout>
